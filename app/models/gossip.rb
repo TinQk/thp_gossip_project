@@ -1,2 +1,2 @@
-class Gossip < ApplicationRecord
+class Gossip < ApplicationRecord 
 end
