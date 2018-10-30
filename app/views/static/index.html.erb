@@ -1,0 +1,7 @@
+<h1>Welcome !</h1>
+<p>Voici la liste des gossips :<br><br>
+	<% @gossips.each do |gossip| %>
+		<%= gossip.author %> aurait dit : "<%= gossip.content %>".<br><br>
+	<% end %>
+</p>
+
