@@ -16,8 +16,10 @@ Giffard Josselin| @Redcozmo
 #
 
 
-* Le pitch
+
 Bienvenue sur la page du super nouveau blog The Gossip Project. Ce site comporte plusieurs pages:
+
+
 - /welcome, qui contient la liste de tous les gossips
 - /welcome/ton_petit_nom, qui, pareil, contient la liste de tous les gossips, mais personnalisé :)
 - /contact
