@@ -1,24 +1,32 @@
-# README
+# README The Gossip Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" align="center" />
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# Présentation des contributeurs:
+nom             | Pseudo Slack
+ ------------   | -------------
+Palma Andréa    | @plm
+Potie Quentin   | @TinQk
+Giffard Josselin| @Redcozmo
 
-* Database creation
 
-* Database initialization
+#
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+* Le pitch
+Bienvenue sur la page du super nouveau blog The Gossip Project. Ce site comporte plusieurs pages:
+- /welcome, qui contient la liste de tous les gossips
+- /welcome/ton_petit_nom, qui, pareil, contient la liste de tous les gossips, mais personnalisé :)
+- /contact
+- /team
+- /gossips/le_numero_de_ton_gossip_préféré qui contient le détail de ton gossip préféré
 
-* Deployment instructions
 
-* ...
+* Le lien en prod
+https://thegossipprojectlyon1.herokuapp.com/welcome
+
+
+Zoubisous
