@@ -8,4 +8,5 @@ class StaticController < ApplicationController
   def index
   	@gossips = Gossip.all # array with all gossips from db
   end
+
 end
