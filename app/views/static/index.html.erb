@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Menu</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="/welcome">Accueil</a></li>
-      <li><a href="/contact">Contact</a></li>
-      <li><a href="/team">La Team</a></li>
-    </ul>
-  </div>
-</nav>
-
-  </head>
-  <body>
-
+<br><br>
   	<h1>The Gossip Project</h1>
-	
+
 	<h3>Bonjour à toi, grand(e) manitou(e) ! Bienvenue sur le meilleur forum de commérage au monnnnnde !</h1>
-	
+
 	<p><b>Sans plus attendre, je te présente la liste des potins du moment :</b><br><br>
 
 	<% @gossips.each do |gossip| %>
-		<%= link_to "clique ici", gossips_path(@gossip_id)%><%= gossip.author %> aurait dit : "<%= gossip.content %>".</a><br><br>
+		<%= gossip.author %> aurait dit : "<%= gossip.content %>".<br>
+    <%= link_to "Clique ici pour afficher la page de ce potin", gossips_path(gossip.id)%><br><br>
 	<% end %>
-
-<<<<<<< HEAD
-	</p>
-
-  </body>
-</html>
